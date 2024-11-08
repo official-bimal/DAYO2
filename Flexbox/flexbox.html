@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex_box</title>
+    <STYle>
+        .main{
+            height: 600px;
+            width: 500px;
+            border: green 3px solid;
+            border-radius: 5px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            
+        }
+        .main div{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            font-size: 4em;
+            margin-top: 10px;
+            border: black 1px solid;
+            text-align: center;
+            color: white;
+            border-radius: 20px;
+            /* padding-top: 30px; */
+        }
+        .nav{
+            height: 80px;
+            width: 900px;
+            background-color: red;
+            margin: 10px auto;
+            border: solid 2px black;
+            border-radius: 20px;
+            display: flex;
+
+
+        }
+        .nav div{
+            height: 80px;
+            width: 150px;
+            font-size: 30px;
+            color: white;
+            margin: 20px 20px;
+            text-align: center;
+        }
+        .nav div:hover{
+            background-color: green;
+            height: 40px;
+            box-shadow: 2px 2px 10px black;
+            transition-delay: 0.2s;
+            color: yellow;
+        }
+    </STYle>
+</head>
+<body>
+    <div class="main">
+        <div class="box1">A</div>
+        <div class="box2">B</div>
+        <div class="box3">C</div>
+        <div class="box4">D</div>
+        <div class="box5">E</div>
+        <div class="box6">F</div>
+        <div class="box7">G</div>
+        <div class="box8">H</div>
+        <div class="box9">I</div>
+    </div>
+
+    <div class="nav">
+        <div>Home</div>
+        <div>About</div>
+        <div>Gallery</div>
+        <div>Contact Us</div>
+    </div>
+</body>
+</html>
